@@ -1,6 +1,7 @@
 * {
     box-sizing: content-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.35;
 }
 
 body {
@@ -13,7 +14,7 @@ h1 {
 }
 
 .header {
-    background-image: url('images/header.jpg');
+    background-image: url('../images/header.jpg');
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
@@ -23,7 +24,7 @@ h1 {
 }
 
 .logo {
-    background-image: url('images/logo.svg');
+    background-image: url('../images/logo.svg');
     background-position: center;
     background-size: contain;
     width: 100%;
@@ -145,5 +146,4 @@ nav {
     width: 70%;
     height: 400px;
     margin: 40px auto;
-    background-color: pink;
 }
